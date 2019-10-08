@@ -22,6 +22,8 @@ def take_a_number(people_on_line, person)
 end
 
 def now_serving(people_on_line)
+  if people_on_line.size == 0 
+    
   next_person = people_on_line.shift
   puts "Currently serving #{next_person}."
 end
