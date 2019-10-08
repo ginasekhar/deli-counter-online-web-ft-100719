@@ -18,7 +18,7 @@ end
 def take_a_number(people_on_line, person)
   people_on_line.push(person)
   position = people_on_line.size
-  puts "Welcome, #{person}. You are number #{position} in line"
+  puts "Welcome, #{person}. You are number #{position} in line."
 end
 
 def now_serving(people_on_line)
