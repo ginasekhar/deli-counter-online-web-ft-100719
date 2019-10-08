@@ -6,10 +6,10 @@ def line(people_on_line)
     return
   end
   
-  deli_line = "The line is currently: "
+  deli_line = "The line is currently:"
   
   people_on_line.each_with_index do | person, index|
-    deli_line << "#{index+1} .  #{person}" 
+    deli_line << " #{index+1}.  #{person}" 
   end
   puts deli_line
   
